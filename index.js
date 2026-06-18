@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'System Info API is running!',
+    message: 'System Info API v2 - CI/CD Pipeline Works!',
     hostname: os.hostname(),
     platform: os.platform(),
     arch: os.arch(),
